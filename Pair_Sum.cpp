@@ -18,6 +18,8 @@ vector<vector<int>> pair_sum(vector<int> arr, int s) {
         }
     }
 
+    sort(ans.begin(), ans.end());
+
     return ans;
 }
 
